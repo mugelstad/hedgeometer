@@ -7,3 +7,46 @@
 ## Raspberry Pi
 
 ## Adafruit Magnetometer MLX-90393
+
+## Setup
+### Hardware
+#### Follow Adafruit's Guide: https://learn.adafruit.com/mlx90393-wide-range-3-axis-magnetometer/circuitpython
+
+### Enable I2C Interface
+```
+sudo raspi-config
+```
+#### Select "Interfacing Options", then "I2C", "Yes", and "Finish"
+```
+reboot
+```
+### Enable Hardware Interfaces
+```
+sudo nano /boot/config.txt
+```
+#### Uncomment ```dtparam=i2c_arm=on``` and ```dtparam=i2c1=on```
+
+### Run the following commands to install the necessary libraries.
+### Twilio Client
+```
+pip3 install twilio
+```
+### Time
+```
+pip3 install datetime
+pip3 install pytz
+```
+### CircuitPython by Adafruit
+```
+pip3 install adafruit-blinka
+```
+### Magnetometer Virtual Environment
+```
+python3 -m venv .env
+source .env/bin/activate
+pip3 install adafruit-circuitpython-mlx90393
+```
+## Running Magnet.py
+```
+python3 magnet.py
+```
