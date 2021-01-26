@@ -5,7 +5,7 @@
 ## Twilio Programmable SMS API
 ### https://www.twilio.com/docs/sms/api/message-resource?code-sample=code-create-a-message&code-language=Python&code-sdk-version=6.x
 
-![Create message with Twilio](https://github.com/mugelstad/hedgeometer/readme-content/create-message.jpg?raw=true)
+![Create message with Twilio](https://github.com/mugelstad/hedgeometer/blob/main/readme-content/create-message.jpg?raw=true)
 
 ## Raspberry Pi
 ### https://www.twilio.com/docs/iot/wireless/get-started-twilio-developer-kit-broadband-iot#the-hardware
@@ -13,7 +13,7 @@
 
 ## Adafruit Magnetometer MLX-90393
 ### https://learn.adafruit.com/mlx90393-wide-range-3-axis-magnetometer?view=all
-![Raspberry Pi plus Magnetometer Wiring](https://github.com/mugelstad/hedgeometer/readme-content/python-wiring.jpg?raw=true)
+![Raspberry Pi plus Magnetometer Wiring](https://github.com/mugelstad/hedgeometer/blob/main/readme-content/python-wiring.jpg?raw=true)
 
 ## Setup
 ### Hardware
