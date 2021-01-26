@@ -7,8 +7,9 @@
 
 ![Create message with Twilio](https://github.com/mugelstad/hedgeometer/blob/main/readme-content/create-message.jpg?raw=true)
 
-## Raspberry Pi
-### https://www.twilio.com/docs/iot/wireless/get-started-twilio-developer-kit-broadband-iot#the-hardware
+## Raspberry Pi B+
+### https://www.raspberrypi.org/documentation/usage/gpio/
+![Raspberry Pi B+ Pinout](https://github.com/mugelstad/hedgeometer/blob/main/readme-content/raspberryPi-pinout.jpg?raw=true)
 
 
 ## Adafruit Magnetometer MLX-90393
@@ -17,6 +18,8 @@
 
 ## Setup
 ### Hardware
+#### Similar setup to Twilio's Developer Kit but with a different sensor
+#### https://www.twilio.com/docs/iot/wireless/get-started-twilio-developer-kit-broadband-iot#the-hardware
 #### Follow Adafruit's Guide: https://learn.adafruit.com/mlx90393-wide-range-3-axis-magnetometer/circuitpython
 
 ### Enable I2C Interface
