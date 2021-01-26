@@ -18,8 +18,6 @@
 
 ## Setup
 ### Hardware
-#### Similar setup to Twilio's Developer Kit but with a different sensor
-#### https://www.twilio.com/docs/iot/wireless/get-started-twilio-developer-kit-broadband-iot#the-hardware
 #### Follow Adafruit's Guide: https://learn.adafruit.com/mlx90393-wide-range-3-axis-magnetometer/circuitpython
 
 ### Enable I2C Interface
@@ -56,7 +54,12 @@ python3 -m venv .env
 source .env/bin/activate
 pip3 install adafruit-circuitpython-mlx90393
 ```
-## Running Magnet.py
+## Running the Application
 ```
 python3 magnet.py
 ```
+
+## Optional setup
+### Use a Twilio SIM card for connectivity instead of WiFi. Connect the LTE Pi Hat and antennas to the Raspberry Pi and insert the SIM card.
+### Similar setup to Twilio's Developer Kit: https://www.twilio.com/docs/iot/wireless/get-started-twilio-developer-kit-broadband-iot#the-hardware
+### Order Twilio SIM cards in Console here: https://www.twilio.com/console/iot/orders/new
