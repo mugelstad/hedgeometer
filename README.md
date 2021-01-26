@@ -2,7 +2,10 @@
 ## A device to track our hedgehog's running distance. 
 ### With Twilio, the Hedgometer texts us every morning with a report on how much Hedgie ran in the night. This helps us keep track of his overall health and wellbeing.
 
-## Twilio APIs
+## Twilio Programmable SMS API
+### https://www.twilio.com/docs/sms/api/message-resource?code-sample=code-create-a-message&code-language=Python&code-sdk-version=6.x
+
+![Create message with Twilio](https://github.com/mugelstad/hedgeometer/blob/master/readme-content/create-message.jpg?raw=true)
 
 ## Raspberry Pi
 
