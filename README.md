@@ -5,7 +5,7 @@
 ## Twilio Programmable SMS API
 ### https://www.twilio.com/docs/sms/api/message-resource?code-sample=code-create-a-message&code-language=Python&code-sdk-version=6.x
 
-![Create message with Twilio](https://github.com/mugelstad/hedgeometer/readme-content/create-message.jpg?raw=true)
+![Create message with Twilio](https://github.com/mugelstad/hedgeometer/blob/main/readme-content/create-message.jpg?raw=true)
 
 ## Raspberry Pi
 
