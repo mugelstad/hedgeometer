@@ -63,7 +63,7 @@ pip3 install adafruit-circuitpython-mlx90393
 python3 magnet.py
 ```
 ### Environment Variables
-#### Replace the information in ```filename``` with your private information.
+#### Set up environment varibles in terminal with your private information.
 
 ![Hedgometer Setup](https://github.com/mugelstad/hedgeometer/blob/main/readme-content/setup.jpg?raw=true)
 
