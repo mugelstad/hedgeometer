@@ -65,6 +65,8 @@ python3 magnet.py
 ### Environment Variables
 #### Replace the information in ```filename``` with your private information.
 
+![Hedgometer Setup](https://github.com/mugelstad/hedgeometer/blob/main/readme-content/setup.jpg?raw=true)
+
 ## Optional setup
 ### Use a Twilio SIM card for connectivity instead of WiFi. Connect the LTE Pi Hat and antennas to the Raspberry Pi and insert the SIM card.
 ### Similar setup to Twilio's Developer Kit: https://www.twilio.com/docs/iot/wireless/get-started-twilio-developer-kit-broadband-iot#the-hardware
