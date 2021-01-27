@@ -35,6 +35,12 @@ sudo nano /boot/config.txt
 #### Uncomment ```dtparam=i2c_arm=on``` and ```dtparam=i2c1=on```
 
 ### Run the following commands to install the necessary libraries.
+### Create a Virtual Environment
+```
+python3 -m venv .env
+source .env/bin/activate
+```
+
 ### Twilio Client
 ```
 pip3 install twilio
@@ -48,16 +54,16 @@ pip3 install pytz
 ```
 pip3 install adafruit-blinka
 ```
-### Magnetometer Virtual Environment
+### Magnetometer
 ```
-python3 -m venv .env
-source .env/bin/activate
 pip3 install adafruit-circuitpython-mlx90393
 ```
 ## Running the Application
 ```
 python3 magnet.py
 ```
+### Environment Variables
+#### Replace the information in ```filename``` with your private information.
 
 ## Optional setup
 ### Use a Twilio SIM card for connectivity instead of WiFi. Connect the LTE Pi Hat and antennas to the Raspberry Pi and insert the SIM card.

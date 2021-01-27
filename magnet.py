@@ -2,6 +2,9 @@
 import busio
 import board
 
+# environment variables setup
+import os
+
 # raspberry pi setup
 I2C_BUS = busio.I2C(board.SCL, board.SDA)
 
@@ -17,20 +20,19 @@ from datetime import datetime
 import pytz
 
 # time setup
-zoneName = environ['TIMEZONE']
+zoneName = os.environ['TIMEZONE']
 timezone = pytz.timezone(zoneName)
 currentTime = datetime.now(tz=timezone)
 
 # twilio imports
-from os import environ
 from twilio.rest import Client
 
 # twilio setup
-accountSid = environ['TWILIO_ACCOUNT_SID']
-authToken = environ['TWILIO_AUTH_TOKEN']
-twilioPhone = environ['TWILIO_PHONE_NUMBER']
-recipient01 = environ['RECIPIENT_01']
-recipient02 = environ['RECIPIENT_02']
+accountSid = os.environ['TWILIO_ACCOUNT_SID']
+authToken = os.environ['TWILIO_AUTH_TOKEN']
+twilioPhone = os.environ['TWILIO_PHONE_NUMBER']
+recipient01 = os.environ['RECIPIENT_01']
+recipient02 = os.environ['RECIPIENT_02']
 
 # laps setup
 magnet = False
